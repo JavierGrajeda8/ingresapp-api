@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ConstantsService = void 0;
+var ConstantsService;
+(function (ConstantsService) {
+    ConstantsService.all = '0';
+    ConstantsService.songs = '1';
+    ConstantsService.movies = '2';
+    ConstantsService.tvShows = '3';
+    ConstantsService.persons = '4';
+    ConstantsService.name = 'name';
+    ConstantsService.type = 'type';
+    ConstantsService.genre = 'genre';
+    ConstantsService.QueryParamErrorTerm = 'The parameter \'term\' is missing';
+    ConstantsService.QueryParamErrorTypeNotValid = 'The parameter \'type\' is not valid';
+    ConstantsService.QueryParamErrorTypeMissing = 'The parameter \'type\'  is missing';
+    ConstantsService.QueryParamErrorOrderByInvalid = 'The parameter \'orderBy\' is not valid';
+    ConstantsService.QueryParamErrorMaxPositive = 'The parameter \'max\' must be a positive integer number';
+    ConstantsService.QueryParamErrorMaxInvalid = 'The parameter \'max\' is not a number, please check';
+    ConstantsService.orderByDefault = ConstantsService.name;
+    ConstantsService.maxDefault = 50;
+})(ConstantsService || (exports.ConstantsService = ConstantsService = {}));
